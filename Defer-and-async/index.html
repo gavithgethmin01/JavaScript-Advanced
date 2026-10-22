@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Defer and Async Demo</title>
+
+    <!-- Async: Downloads in background, executes immediately when ready (blocks HTML parsing during execution) -->
+    <script async src="script.js"></script>
+
+    <!-- Defer: Downloads in background, executes only after full HTML parsing (preserves execution order) -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript Loading Attributes: Async vs Defer</h1>
+    <p id="content">Parsing HTML content...</p>
+  </body>
+</html>
